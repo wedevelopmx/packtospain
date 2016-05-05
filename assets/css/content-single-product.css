@@ -1,0 +1,196 @@
+	.single-product #main {
+	    background-color: #f7f7f8;
+	    background-image: none;
+	}
+
+	.pack-product {
+	    display: flex;
+	    flex-flow: row wrap;
+	}
+
+	.pack-title {
+	    position: absolute;
+	    width: 100%;
+	    z-index: 10;
+	    bottom: 0;
+	    padding: 1rem;
+	}
+
+	.pack-title .product_title.entry-title {
+	    color: #ffffff!important;
+	    display: inline-block;
+	}
+
+	.pack-title .pack-price .amount { /*Offer*/
+		color: #ffffff!important;
+	}
+
+	.pack-price {
+	    float: right;
+	    display: inline-block;
+	    padding: 20px 0px;
+	}
+
+	.pack-title div {
+		color: #ffffff!important;	
+		float: right;
+	    display: inline-block;
+	    padding: 20px 0px;
+	}
+
+	.pack-title .price .amount {
+	    color: #ffffff !important;
+	}
+
+	.pack-gallery, .pack-summary, .pack-details {
+	    width: 100%;
+	    position: relative;
+	}
+
+	.pack-gallery .images {
+		float: none;
+		width: 100%;
+		margin-right: 0px;
+	}
+
+	/*remove padding from image*/
+	.product .pack-gallery .images #slider {
+	    margin-bottom: 0px;
+	}
+
+	.pack-gallery .attachment-shop_single {
+	    border-radius: 0px !important;
+	}
+
+	.pack-summary .summary.entry-summary {
+	    margin-left: 0px;
+	}
+
+	.pack-header {
+	    background-color: #fff;
+	    padding: 1px 2rem;
+	    margin-bottom: 1.5rem;
+	    box-shadow: 1px 1px 4px #888888;
+	}
+
+	.product-services {
+	    display: inline-block;
+	}
+
+	.pack-menu {
+	    display: inline-block;
+	    margin: 0;
+	    padding: 0;
+	}
+
+	.pack-menu li {
+	    display: inline-block;
+	    padding: 1rem .5rem;
+	}
+
+	.pack-menu img {
+	    max-width: 4rem;
+	    margin: 0 auto;
+	    display: block;
+	}
+
+	.variations_form.cart {
+		display: inline-block;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.single_variation_wrap {
+	    display: inline-block;
+	}
+
+	.woocommerce-variation.single_variation {
+		text-align: center;
+	}
+
+	.pack-header .pack-menu span {
+	    font-weight: bold;
+	}
+
+	.woocommerce #wrapper .single_add_to_cart_button {
+	    background: #f4b304!important;
+	    border-color: #f4b304 !important;
+	    color: #ffffff!important;
+	}
+
+	#tab-additional_information {
+	    display: none !important;
+	}
+
+	#tab-description {
+	    border-radius: 0px !important;
+	    border: none;
+	    padding: 1rem;
+	    box-shadow: 1px 1px 4px #888888;
+	    margin-bottom: .5rem;
+	}
+
+	.pack-product .pack-summary .summary.entry-summary .post-content {
+	    display: flex;
+	    flex-flow: row wrap;
+	}
+	.pack-product .pack-summary .summary.entry-summary .post-content div {
+	    width: 49%;
+	    padding: 1rem;
+	    background-color: #fff;
+	    box-shadow: 1px 1px 4px #888888;
+	}
+
+	.pack-product .pack-summary .summary.entry-summary .post-content div:first-child {
+	    margin-right: 2%;
+	}
+
+	.pack-details .woocommerce-tabs.wc-tabs-wrapper {
+	    padding-top: 1.5rem;
+	}
+
+	#phone {
+	    border-radius: 4px;
+	    border: 1px solid #a5a5a5;
+	    padding: 4px;
+	    width: 100%;
+	    box-sizing: border-box;
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none;
+	    background: #fff;
+	    margin-top: 4px;
+	    background: no-repeat url("http://packtospain.com/wp-content/uploads/2016/04/select.svg");
+		background-position: calc(100% - 5px) 50%;
+	}
+
+	@media screen and (max-width: 800px) {
+		.pack-product .pack-summary .summary.entry-summary .post-content div {
+			width: 100%;
+		}
+		.pack-product .pack-summary .summary.entry-summary .post-content div:first-child {
+			margin-right: 0%;
+			margin-bottom: 1.5rem;
+		}
+		.pack-header {
+			text-align: center;	
+		}
+
+		.pack-gallery .images {
+			margin-bottom: 0rem;
+		}
+		
+	}
+
+	.pack-info {
+	    text-align: center;
+	    font-weight: bold;
+	}
+
+	.product .images {
+		width: 100%!important;
+	}
+
+	.product .summary.entry-summary {
+		margin-left: 0px!important;
+	}
